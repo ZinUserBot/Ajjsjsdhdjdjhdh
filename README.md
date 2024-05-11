@@ -39,3 +39,6 @@ sudo bash -c 'echo "exec /etc/X11/Xsession /usr/bin/xfce4-session" > /etc/chrome
     
     
 sudo systemctl disable lightdm.service
+
+
+DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AdLIrYcuQrQEdwgMIyazyMlZMxY7XJhgL31zPlzpUs4JRyX92O_rCD2XtcSGEwaCnF8bIg" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)
