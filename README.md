@@ -42,3 +42,7 @@ sudo systemctl disable lightdm.service
 
 
 DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AdLIrYcuQrQEdwgMIyazyMlZMxY7XJhgL31zPlzpUs4JRyX92O_rCD2XtcSGEwaCnF8bIg" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)
+
+
+
+DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AdLIrYdqicNI4_CGkJ1RcuzaIf45JBRvgMhTXTx_IQSy4uTkmBihmFM58Aeu-MBXiosZQQ" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)
